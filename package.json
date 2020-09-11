@@ -1,0 +1,13 @@
+{
+  "name": "log_importer",
+  "version": "1.0.0",
+  "description": "read files from a directory and write to a log file so dynatrace can ingest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
